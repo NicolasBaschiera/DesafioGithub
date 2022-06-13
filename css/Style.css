@@ -35,10 +35,7 @@ header h1{
     animation-name: expand;
     animation-iteration-count: infinite;
     animation-duration: 30s;
-    
 }
-
-
 
 .barraMenu{
     display: flex;
