@@ -31,11 +31,6 @@ header h1{
     padding-bottom: 0.5rem;
 }
 
-.logo{
-    animation-name: expand;
-    animation-iteration-count: infinite;
-    animation-duration: 30s;
-}
 
 .barraMenu{
     display: flex;
@@ -65,14 +60,15 @@ header nav ul li a {
     color: black;
 }
 
-#imagenes {
-    text-align: center;
 
 
-}
-
-.imagen1{
-    width: 90%;
+.caruselIndex{
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    margin: 25rem;
+    height: 10%;
+    size: 2rem;
 }
 
 #descImg{
@@ -119,17 +115,16 @@ footer {
 }
 
 #contacto{
-    color: whitesmoke;
+    color: gray;
     font-size: 1.3rem;
     margin-left: 10%;
     font-style: italic;
-
 }
 .cajaContacto{
     background-color: white;
-    display: inline-block;
-    margin-top: 2%;
-    margin-left: 10%;
+    display: flex;
+    margin:0% 23% 0% 23%;
+    justify-content: center;
 
 }
 
@@ -249,6 +244,22 @@ span p{
         font-size: 1rem;
     }
 
+    #contacto{
+        color: gray;
+        font-size: 1.3rem;
+        margin-left: 10%;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .cajaContacto{
+        background-color: white;
+        display: flex;
+        margin:0% 35% 0% 35%;
+        justify-content: center;
+    
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -288,6 +299,7 @@ span p{
     /*estilos mi musica*/
 
     .tablaDisco{
+        
         margin-right:20% ;
         margin-left: 20%;
         justify-content: center;
@@ -328,12 +340,29 @@ span p{
     }
 
 
+
     #estudios {
         margin-left: 5.1rem;
     }
 
     #musica{
         margin-right: 5.1rem;
+    }
+
+    #contacto{
+        color: gray;
+        font-size: 1.3rem;
+        margin-left: 10%;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .cajaContacto{
+        background-color: white;
+        display: flex;
+        margin:0% 39% 0% 39%;
+        justify-content: center;
+    
     }
 
 }

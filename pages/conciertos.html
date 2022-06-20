@@ -4,89 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    
+    <!--link de css-->
+    <link rel="stylesheet" href="../css/Style.css">
     <title>Rodrigo Avalos - Conciertos</title>
 </head>
 <body>
-    <div class="container" style="padding: 0.5rem;background-color: aliceblue;">
-        <header class="row bg-danger" style="font-size: 1.5rem;">
-            <h1 class="col text-center" > Rodrigo Avalos</h1>  
-            <nav style="margin-top: 1rem;">
-                <ul class="row" style="list-style: none; justify-content: center;">
-                    <li class="col-2"> <a class="col" href="../index.html" style="text-decoration: none; color:black;"> 
-                            Home 
-                        </a>
-                    </li>
-                    <li class="col-2"> <a class="col" href="./mimusica.html" style="text-decoration: none; color:black;">
-                            Musica
-                        </a>
-                    </li>
-                    <li class="col-2"> <a class="col" href="./quiensoy.html" style="text-decoration: none; color:black;">
-                            Biografia
-                        </a>
-                    </li> 
-                    <li class="col-2"> <a class="col" href="./conciertos.html" style="text-decoration: none; color:black;">
-                            Conciertos
-                         </a>
-                    </li>
-                    <li class="col-2"> <a class="col" href="./contacto.html" style="text-decoration: none; color:black;">
-                            Contacto
-                         </a>
-                </ul>
-            </nav>    
-        </header>
-        <main>
-            
-            <br><br><br>
+    <header class="menuPrincipal">
+        <h1 class="logo">Rodrigo Avalos</h1>  
+        <nav>
+            <ul class="barraMenu">
+                <li> <a class="linkMenu" href="../index.html"> 
+                        Home 
+                    </a>
+                </li>
+                <li> <a class="linkMenu" href="./mimusica.html">
+                        Mi Musica
+                    </a>
+                </li>
+                <li> <a class="linkMenu" href="./quiensoy.html">
+                        Quien Soy
+                    </a>
+                </li> 
+                <li> <a class="linkMenu" href="./conciertos.html">
+                        Conciertos
+                     </a>
+                </li>
+                <li> <a class="linkMenu" href="./contacto.html">
+                        Contacto
+                 </a>
+                </li>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        <div class="fechas" style="color: white;">
+            <h1>Proximos Fechas</h1>
+            <Ul>
+                <li class="fechaNumerada">Fecha, Recinto, Ciudad, InfoEntradas</li>
+                <li class="fechaNumerada">Fecha, Recinto, Ciudad, InfoEntradas</li>
+                <li class="fechaNumerada">Fecha, Recinto, Ciudad, InfoEntradas</li>
+                <li class="fechaNumerada">Fecha, Recinto, Ciudad, InfoEntradas</li>
+
+            </Ul>
+        </div>  
+
+        <div class="fechas" style="color: white;">
+            <h1>Fechas Pasadas</h1>
+            <ul>
+                <li class="fechaNumerada">Fecha, Recinto, Ciudad, InfoEntradas</li>
+                <li class="fechaNumerada">Fecha, Recinto, Ciudad, InfoEntradas</li>
+                <li class="fechaNumerada">Fecha, Recinto, Ciudad, InfoEntradas</li>
+                <li class="fechaNumerada">Fecha, Recinto, Ciudad, InfoEntradas</li>
+            </ul> 
+        </div>
 
 
-            <div class="row" style="margin: 1.5rem;">
-                <div class="col-8 text-center" >
-                    <h2>Proximos Fechas</h2>
-                    <Ul style="list-style: none">
-                        <li class=>Fecha, Recinto, Ciudad, InfoEntradas</li>
-                        <li class=>Fecha, Recinto, Ciudad, InfoEntradas</li>
-                        <li class=>Fecha, Recinto, Ciudad, InfoEntradas</li>
-                        <li class=>Fecha, Recinto, Ciudad, InfoEntradas</li>
-                    
-                    </Ul>
-                </div>
-                <div class="col-4">
-                    <img src="../img/imagenrodrigo1.jpeg" alt="descImg" style="width:60%">
-                </div>
-            </div>  
+        <br><br><br><br><br>
+
+
+
+
         
-            <div class="row" style="margin: 1.5rem;">
-                <div class="col-8 text-center">
-                    <h2>Fechas Pasadas</h2>
-                    <ul style="list-style: none">
-                        <li>Fecha, Recinto, Ciudad, InfoEntradas</li>
-                        <li>Fecha, Recinto, Ciudad, InfoEntradas</li>
-                        <li>Fecha, Recinto, Ciudad, InfoEntradas</li>
-                        <li>Fecha, Recinto, Ciudad, InfoEntradas</li>
-                    </ul> 
-                </div>
-                    <div class="col-4">
-                        <img src="../img/imagenrodrigo1.jpeg" alt="descImg" style="width:60%">
-                    </div>
-            </div>
-                
-        
-        </main>
-        
-        
-        
-        <footer class="row text-center bg-danger" >
-            <a class="volverArriba" href="conciertos.html" style="text-decoration: none; color:black;">
+        <div style="text-align: center;">
+            <a class="volverArriba" href="conciertos.html">
                 Volver arriba
             </a>
-            <h5>
-                Todos los derechos reservados
-            </h5>
-        </footer>
-    </div>
+        </div>
     
-</body>
+    
+    </main>
+    
+   
+    
+    <footer>
+        Todos los derechos reservados.
+    </footer>
+    </body>
 </html>
